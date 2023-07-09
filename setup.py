@@ -14,16 +14,20 @@ def package_files(directory):
 
 
 extra_files = package_files('minecraft_data/data/data')
+long_desc = "Failed to load README.rst"
+
+with open('README.rst', 'r') as readme_fobj:
+  long_desc = readme_fobj.read()
 
 setup(
     name='minecraft_data',
     description='Provide easy access to minecraft data in python',
     license='MIT',
-    long_description=open('README.rst').read(),
-    version='3.20.0',
-    maintainer='Vito Gamberini',
+    long_description=long_desc,
+    version='3.39.0',
+    maintainer='Anthy',
     maintainer_email='vito@gamberini.email',
-    url='https://github.com/SpockBotMC/python-minecraft-data',
+    url='https://github.com/yntha/python-minecraft-data',
     packages=find_packages(),
     package_data={'minecraft_data': extra_files},
     install_requires=[],

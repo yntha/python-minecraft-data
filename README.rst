@@ -13,19 +13,19 @@ From PyPi:
 
 From Repo:
 
-``python -m pip install git+https://github.com/SpockBotMC/python-minecraft-data``
+``python -m pip install git+https://github.com/yntha/python-minecraft-data``
 
 Usage
 -----
 
-See the `example.py <https://github.com/rom1504/python-minecraft-data/blob/master/example.py>`__
+See the `example.py <https://github.com/yntha/python-minecraft-data/blob/master/example.py>`__
 
 
 Documentation
 -------------
 
-- See `doc/api.md <https://github.com/rom1504/python-minecraft-data/blob/master/doc/api.md>`__
-- See `doc/history.md <https://github.com/rom1504/python-minecraft-data/blob/master/doc/history.md>`__
+- See `doc/api.md <https://github.com/yntha/python-minecraft-data/blob/master/doc/api.md>`__
+- See `doc/history.md <https://github.com/yntha/python-minecraft-data/blob/master/doc/history.md>`__
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/minecraft_data.svg
